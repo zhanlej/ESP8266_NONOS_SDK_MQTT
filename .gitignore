@@ -1,0 +1,4 @@
+app/modules/.output/*
+app/mqtt/.output/*
+app/user/.output/*
+app/.output/*

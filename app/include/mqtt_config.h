@@ -3,12 +3,12 @@
 
 #define CFG_HOLDER	0x00FF55A4	/* Change this value to load default configurations */
 #define CFG_LOCATION	0x79	/* Please don't change or if you know what you doing */
-#define MQTT_SSL_ENABLE
+//#define MQTT_SSL_ENABLE
 
 /*DEFAULT CONFIGURATIONS*/
 
-#define MQTT_HOST			"192.168.1.100" //or "mqtt.yourdomain.com"
-#define MQTT_PORT			1883
+#define MQTT_HOST			"47.92.81.9" //or "mqtt.yourdomain.com"
+#define MQTT_PORT			8883
 #define MQTT_BUF_SIZE		1024
 #define MQTT_KEEPALIVE		120	 /*second*/
 
@@ -16,8 +16,8 @@
 #define MQTT_USER			"DVES_USER"
 #define MQTT_PASS			"DVES_PASS"
 
-#define STA_SSID "DVES_HOME"
-#define STA_PASS "yourpassword"
+#define STA_SSID "Qualitytech"
+#define STA_PASS "zhixiangtech"
 #define STA_TYPE AUTH_WPA2_PSK
 
 #define MQTT_RECONNECT_TIMEOUT 	5	/*second*/
